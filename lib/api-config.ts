@@ -1,6 +1,9 @@
 export const endpointsConfig = {
   auth: {
     signin: { path: "/auth/signin", method: "POST" as const },
+    signup: { path: "/auth/signup", method: "POST" as const },
+    resetPassword: { path: "/auth/reset-password", method: "POST" as const },
+    confirmResetPassword: { path: "/auth/confirm-reset-password", method: "POST" as const },
     logout: { path: "/auth/logout", method: "POST" as const },
   },
   order: {
