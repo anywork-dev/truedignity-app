@@ -33,7 +33,7 @@ export default function LoginPage() {
         api.store({ token: signInResponse.response.token });
         router.push("/");
       } else {
-        setMessage(signInResponse.message || "Login failed.");
+        setMessage(signInResponse.response?.message || "Login failed.");
       }
     } catch (error) {
       console.error(error);
