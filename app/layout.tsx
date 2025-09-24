@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next';
 import { Manrope } from 'next/font/google';
 
 export const metadata: Metadata = {
-  title: 'Next.js Static Starter',
-  description: 'A starter for Next.js static sites.'
+  title: 'TrueDignity - Secure Notary Operating System',
+  description: 'A revolutionary notary operating system built on federated network architecture where security comes first.'
 };
 
 export const viewport: Viewport = {
